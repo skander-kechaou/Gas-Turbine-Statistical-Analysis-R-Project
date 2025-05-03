@@ -16,7 +16,6 @@ The analysis explores relationships between variables, predicts emissions, inves
 *   [Key Findings](#key-findings)
     *   [Gas Turbine Emissions](#gas-turbine-emissions)
     *   [Predictive Maintenance (AI4I)](#predictive-maintenance-ai4i)
-*   [Project Structure](#project-structure)
 *   [Technology Stack](#technology-stack)
 *   [Getting Started](#getting-started)
     *   [Prerequisites](#prerequisites)
@@ -100,24 +99,6 @@ The analysis was performed using the R programming language and involved the fol
 
 ---
 
-## Project Structure
-
-```
-your-project-name/
-├── .gitignore
-├── README.md
-├── data/
-│   ├── gt_2011.csv ... gt_2015.csv
-│   └── ai4i2020.csv
-├── scripts/
-│   └── statistical_analysis.R
-├── output/            # Optional: For generated plots/results
-├── presentation/      # Optional: Presentation file
-└── report/            # Optional: SPSS PDF report
-```
-
----
-
 ## Technology Stack
 
 *   **Language:** R
@@ -146,22 +127,16 @@ your-project-name/
     cd Gas-Turbine-Statistical-Analysis-R-Project
     ```
 2.  **Obtain Data:**
-    *   **(If data is included in the repo):** The data should be present in the `data/` folder.
-    *   **(If data is *not* included - check `.gitignore`):** Download the datasets from the UCI links provided above and place the `.csv` files into the `data/` folder. Ensure the filenames match those expected by the script (`gt_2011.csv`, ..., `ai4i2020.csv`).
-3.  **Install R Packages:**
-    Open R or RStudio and run the following command in the console:
-    ```R
-    install.packages(c("corrplot", "VIM", "dplyr", "naniar", "MASS", "e1071"))
-    ```
+    *   The data should be present in the `data/` folder.
 
 ---
 
 ## Usage
 
-1.  Open the R script `scripts/statistical_analysis.R` in RStudio.
+1.  Open the R script `scripts/statistical_analysis.R` in R.
 2.  Ensure your working directory is set to the root of the project folder (e.g., using `setwd("path/to/your-project-name")` in the console, or by opening the project via an RStudio `.Rproj` file if you create one).
 3.  Run the script line by line or source the entire file (`source("scripts/statistical_analysis.R")`) to perform the analysis.
-4.  View the console output for statistical test results and model summaries. Plots will be generated in the RStudio Plots pane or saved to the `output/` directory if modified to do so.
+4.  View the console output for statistical test results and model summaries. Plots are saved to the `images/`.
 
 ---
 
@@ -181,7 +156,7 @@ your-project-name/
 
 *   Data sourced from the UCI Machine Learning Repository.
 *   Analysis performed using the R programming language and its packages.
-*   Presentation template potentially by Slidesgo (if applicable).
+*   Presentation template by Slidesgo.
 *   SPSS was used for comparative analysis outlined in the accompanying report.
 
 ---
