@@ -136,7 +136,7 @@ The analysis was performed using the R programming language and involved the fol
 1.  Open the R script `scripts/statistical_analysis.R` in R.
 2.  Ensure your working directory is set to the root of the project folder (e.g., using `setwd("path/to/your-project-name")` in the console, or by opening the project via an RStudio `.Rproj` file if you create one).
 3.  Run the script line by line or source the entire file (`source("scripts/statistical_analysis.R")`) to perform the analysis.
-4.  View the console output for statistical test results and model summaries. Plots are saved to the `images/`.
+4.  View the console output for statistical test results and model summaries. Plots are saved to the `test_images/`.
 
 ---
 
